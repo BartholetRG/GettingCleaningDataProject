@@ -1,5 +1,5 @@
 # Study Design
-The data is collected from [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The data is collected from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 From this data set we stitched together the training and test data sets and included the subjects and activity for each data value in the data set.  We followed the rules of tidy data:
 * Each variable you measure should be in one column
@@ -48,7 +48,9 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroJerkMean
 
 Given the mean and standard deviation measurements we pulled from the raw data set as described above, we aggregated these variables and computed the mean of each for each combination of subject and activity.  
+
 The specific fields included in this tidy data set are enumerated in field order per the following list.  It is assumed that fields 3-88 pulled from the *features.txt* file are understandable to a domain expert.
+
 1. subject
 2. activity
 3. tBodyAcc-mean()-X                   
