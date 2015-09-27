@@ -1,7 +1,7 @@
 # Study Design
 The data is collected from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-From this data set we stitched together the training and test data sets and included the subjects and activity for each data value in the data set.  We followed the rules of tidy data:
+From this data set we stitched together the training and test data sets and included the subjects and activity for each data value in the data set.  We aggregated the data grouping by two variables and computing the mean for each combination of those two variables (more below).  We followed the rules of tidy data:
 * Each variable you measure should be in one column
 * Each different observation of that variable should be in a different row
 * There should be one table for each "kind" of variable
