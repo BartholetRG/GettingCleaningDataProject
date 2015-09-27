@@ -47,7 +47,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-Given the mean and standard deviation measurements we pulled from the raw data set as described above, we aggregated these variables and computed the mean of each for each combination of subject and activity.  
+Given the mean and standard deviation measurements we pulled from the raw data set as described above, **we aggregated these variables and computed the mean for each combination of subject and activity.**  
 
 The specific fields included in this tidy data set are enumerated in field order per the following list.  It is assumed that fields 3-88 pulled from the *features.txt* file are understandable to a domain expert.
 
